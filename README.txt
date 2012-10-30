@@ -8,7 +8,7 @@ This program can be compiled on a unix-based machine using g++.  Given that "dic
 EXECUTION
 
 Calling the program must be of the form: <PROGRAM_NAME> <INTEGER> <FILENAME> 
-	Example: %  ./a.out 45 words.csv
+	Example call: ./a.out 45 words.csv
 
 
 As demonstrated above, the executable must take two arguments (besides the program's own name). All arguments must be separated by any number of spaces.  Program arguments are as follows:
@@ -22,7 +22,9 @@ user's word with each word in the dictionary, returning only those words which
 have a Levenshtein distance N.  After printing to standard output, the program
 will ask whether the user wants to continue comparing words, or exit.
 
-A complimentary dictionary is bundled with this folder.
+A complimentary dictionary is bundled with this folder, in a file called
+"words.csv".  The length of its longest word is 45.  Therefore an appropriate
+way to call this program is as follows: ./a.out 45 words.csv
 
 DEFINITIONS
 
